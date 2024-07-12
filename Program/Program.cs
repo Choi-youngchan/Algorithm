@@ -1,47 +1,74 @@
-﻿namespace Program
+﻿using System.Runtime.InteropServices;
+
+namespace Program
 {
     internal class Program
     {
-        static void Sosu(int x)
+        static void Ab(int[] array) // 내가
         {
-            int count = 0;
-            for (int i = 2; i < x; i++)
+            int min = array[0];
+            int x = 0;
+            for (int i = 0; i < array.Length; i++)
             {
-                if (x % i == 0)
+                if (array[i] < min)
                 {
-                    count = count + 1 ;
+                    min = array[i];
+                    x = i;
                 }
             }
-            if (count == 0)
+            int temp = array[0];
+            array[0] = min;
+            array[x] = temp;
+            // for (int i  = 1; i < array.Length ; i++)
+            // {
+            //     if (array[i] < min)
+            //     {
+            //         min = array[i];
+            //         x = i;
+            //     }
+            // }
+            // temp = array[0];
+            // array[0] = min;
+            // array[x] = temp;
+
+            for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine("소수입니다.");
-            }
-            else if (count > 0)
-            {
-                Console.WriteLine("소수가 아닙니다.");
+                Console.Write(array[i] + " ");
             }
         }
-        static bool IsPrime(int x) 
-        {
-            for (int i = 2; i < x; i++)
-            {
-                if (x % i == 0)
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
+
         static void Main(string[] args)
         {
-             int x = int.Parse(Console.ReadLine());
-             Sosu(x);
-             Console.WriteLine(IsPrime(x));
+            #region 선택 정렬
+            // 주어진 리스트 중에 최소값을 찾아서 맨 앞에 위치한 결과를 교체하는 방식으로 정렬는 알고리즘입니다.
 
-            #region 에라토스테네스의 체
-            // 소수를 판정하는 방법으로, 자연수를 순서대로 늘어놓은 표에서 합성수를 차례대로 지원가면서
-            // 소수의 목록을 얻어내는 방법입니다.
             #endregion
+
+            int[] array = { 6, 5, 7, 3, 9 };
+            for (int i = 0; i < array.Length; i++)
+            {
+                int min = array[i];
+                int select = i;
+                for (int j = i + 1; j < array.Length; j++)
+                {
+                    if (min > array[j])
+                    {
+                        min = array[j];
+
+                        select = j;
+                    }
+                }
+                int temp = array[i];
+                array[i] = array[select];
+                array[select] = temp;
+
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i]);
+            }
         }
     }
 }
+
+
