@@ -4,71 +4,26 @@ namespace Program
 {
     internal class Program
     {
-        static void Ab(int[] array) // 내가
-        {
-            int min = array[0];
-            int x = 0;
-            for (int i = 0; i < array.Length; i++)
-            {
-                if (array[i] < min)
-                {
-                    min = array[i];
-                    x = i;
-                }
-            }
-            int temp = array[0];
-            array[0] = min;
-            array[x] = temp;
-            // for (int i  = 1; i < array.Length ; i++)
-            // {
-            //     if (array[i] < min)
-            //     {
-            //         min = array[i];
-            //         x = i;
-            //     }
-            // }
-            // temp = array[0];
-            // array[0] = min;
-            // array[x] = temp;
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
-        }
-
         static void Main(string[] args)
         {
-            #region 선택 정렬
-            // 주어진 리스트 중에 최소값을 찾아서 맨 앞에 위치한 결과를 교체하는 방식으로 정렬는 알고리즘입니다.
+            #region 계수 정렬
+            // 데이터의 값을 집적 비교하지 않고, 단순하게 각 숫자가 몇 개 있는지 개수를 세어 저장한 다음 정렬하는 알고리즘입니다.
+            int[] array = { 1, 6, 6, 6, 5, 1, 2, 3, 1, 2, 3, 6, 5, 4, };
+            int[] count = new int[6];
+
+            for(int i = 0; i < array.Length; i ++)
+            {
+                count[array[i] - 1] += 1;
+            }
+            for (int j = 0; j < count.Length; j++)
+            {
+                Console.WriteLine(count[j]);
+            }
 
             #endregion
-
-            int[] array = { 6, 5, 7, 3, 9 };
-            for (int i = 0; i < array.Length; i++)
-            {
-                int min = array[i];
-                int select = i;
-                for (int j = i + 1; j < array.Length; j++)
-                {
-                    if (min > array[j])
-                    {
-                        min = array[j];
-
-                        select = j;
-                    }
-                }
-                int temp = array[i];
-                array[i] = array[select];
-                array[select] = temp;
-
-            }
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i]);
-            }
         }
     }
 }
+
 
 

@@ -7,9 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program", "Program.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class1th (Brute Force)", "..\Class1th (Brute Force)\Class1th (Brute Force).csproj", "{8A2E706D-1C36-4139-8F9C-36C0856AA20B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2th (Sieve of Eratosthenes)", "..\Class2th (Sieve of Eratosthenes)\Class2th (Sieve of Eratosthenes).csproj", "{7CF60365-D353-45F8-867A-1E622D57AF8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2th (Sieve of Eratosthenes)", "..\Class2th (Sieve of Eratosthenes)\Class2th (Sieve of Eratosthenes).csproj", "{7CF60365-D353-45F8-867A-1E622D57AF8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class3th (Bubble Sort)", "..\Class3th (Bubble Sort)\Class3th (Bubble Sort).csproj", "{3DFC2ECF-BBD9-4518-8E55-2F88A114B8B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class3th (Bubble Sort)", "..\Class3th (Bubble Sort)\Class3th (Bubble Sort).csproj", "{3DFC2ECF-BBD9-4518-8E55-2F88A114B8B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class4th (Select Sort)", "..\Class4th (Select Sort)\Class4th (Select Sort).csproj", "{F09CF172-3519-4019-9028-DD8E60E6AC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class5th (Insert Sort)", "..\Class5th (Insert Sort)\Class5th (Insert Sort).csproj", "{ED7FE24F-73DD-4BA2-BC80-85DCD86E4921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class6th (Shell Sort)", "..\Class6th (Shell Sort)\Class6th (Shell Sort).csproj", "{633F72FF-16FB-4605-964C-19DA466A3DF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{3DFC2ECF-BBD9-4518-8E55-2F88A114B8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DFC2ECF-BBD9-4518-8E55-2F88A114B8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DFC2ECF-BBD9-4518-8E55-2F88A114B8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09CF172-3519-4019-9028-DD8E60E6AC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09CF172-3519-4019-9028-DD8E60E6AC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09CF172-3519-4019-9028-DD8E60E6AC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09CF172-3519-4019-9028-DD8E60E6AC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7FE24F-73DD-4BA2-BC80-85DCD86E4921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7FE24F-73DD-4BA2-BC80-85DCD86E4921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7FE24F-73DD-4BA2-BC80-85DCD86E4921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7FE24F-73DD-4BA2-BC80-85DCD86E4921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633F72FF-16FB-4605-964C-19DA466A3DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633F72FF-16FB-4605-964C-19DA466A3DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633F72FF-16FB-4605-964C-19DA466A3DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633F72FF-16FB-4605-964C-19DA466A3DF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
