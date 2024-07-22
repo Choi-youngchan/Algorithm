@@ -2,8 +2,6 @@
 {
     internal class Program
     {
-        internal class Program
-        {
             static int Fibonacci(int[] array, int x)
             {
                 if (x <= 0)

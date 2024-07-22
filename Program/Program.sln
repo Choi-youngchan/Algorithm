@@ -27,9 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class10th (Divide & Conquer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class11th (Quick Sort)", "..\Class11th (Quick Sort)\Class11th (Quick Sort).csproj", "{C655E4DC-F07A-48C1-BAE7-BF9CFEC2A0D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class12th (Merge Sort)", "..\Class12th (Merge Sort)\Class12th (Merge Sort).csproj", "{FFEEC775-230D-4F89-8D12-2F6F6056EBBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class12th (Merge Sort)", "..\Class12th (Merge Sort)\Class12th (Merge Sort).csproj", "{FFEEC775-230D-4F89-8D12-2F6F6056EBBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class13th (Dynamic Programing)", "..\Class13th (Dynamic Programing)\Class13th (Dynamic Programing).csproj", "{0B3422DA-4C3C-4469-8652-A22129EE9193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class13th (Dynamic Programing)", "..\Class13th (Dynamic Programing)\Class13th (Dynamic Programing).csproj", "{0B3422DA-4C3C-4469-8652-A22129EE9193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class14th (Greedy)", "..\Class14th (Greedy)\Class14th (Greedy).csproj", "{FC16AAD2-C533-408A-857C-BFA2544CE6FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class15th (Longest Increasing Subsequence)", "..\Class15th (Longest Increasing Subsequence)\Class15th (Longest Increasing Subsequence).csproj", "{ACFD8D71-29F5-48EF-8B75-810A3224C2FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{0B3422DA-4C3C-4469-8652-A22129EE9193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B3422DA-4C3C-4469-8652-A22129EE9193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B3422DA-4C3C-4469-8652-A22129EE9193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC16AAD2-C533-408A-857C-BFA2544CE6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC16AAD2-C533-408A-857C-BFA2544CE6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC16AAD2-C533-408A-857C-BFA2544CE6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC16AAD2-C533-408A-857C-BFA2544CE6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFD8D71-29F5-48EF-8B75-810A3224C2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFD8D71-29F5-48EF-8B75-810A3224C2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFD8D71-29F5-48EF-8B75-810A3224C2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFD8D71-29F5-48EF-8B75-810A3224C2FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
