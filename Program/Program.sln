@@ -35,7 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class14th (Greedy)", "..\Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class15th (Longest Increasing Subsequence)", "..\Class15th (Longest Increasing Subsequence)\Class15th (Longest Increasing Subsequence).csproj", "{ACFD8D71-29F5-48EF-8B75-810A3224C2FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class16th ( Euclid Algorithm)", "..\Class16th ( Euclid Algorithm)\Class16th ( Euclid Algorithm).csproj", "{FBB7FED8-4C06-49F2-9FB1-2ED95E2514F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class16th ( Euclid Algorithm)", "..\Class16th ( Euclid Algorithm)\Class16th ( Euclid Algorithm).csproj", "{FBB7FED8-4C06-49F2-9FB1-2ED95E2514F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class17th (Back Tracking)", "..\Class17th (Back Tracking)\Class17th (Back Tracking).csproj", "{CFD6F15B-D5DF-4740-BD34-415FB7DC2CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class18th (Depth First Search)", "..\Class18th (Depth First Search)\Class18th (Depth First Search).csproj", "{47658D4B-04DD-4952-A2BC-B6434838D4CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{FBB7FED8-4C06-49F2-9FB1-2ED95E2514F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB7FED8-4C06-49F2-9FB1-2ED95E2514F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB7FED8-4C06-49F2-9FB1-2ED95E2514F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD6F15B-D5DF-4740-BD34-415FB7DC2CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD6F15B-D5DF-4740-BD34-415FB7DC2CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD6F15B-D5DF-4740-BD34-415FB7DC2CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD6F15B-D5DF-4740-BD34-415FB7DC2CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47658D4B-04DD-4952-A2BC-B6434838D4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47658D4B-04DD-4952-A2BC-B6434838D4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47658D4B-04DD-4952-A2BC-B6434838D4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47658D4B-04DD-4952-A2BC-B6434838D4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
