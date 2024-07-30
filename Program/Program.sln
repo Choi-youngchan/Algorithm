@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class18th (Depth First Sear
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class19th (Breadth First Search)", "..\Class19th (Breadth First Search)\Class19th (Breadth First Search).csproj", "{E31FD403-B52A-4C3F-83F9-D846A208E215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class20th (Topology Sort)", "..\Class20th (Topology Sort)\Class20th (Topology Sort).csproj", "{1CCD109C-02C8-4049-99EE-B523AF7E8CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class20th (Topology Sort)", "..\Class20th (Topology Sort)\Class20th (Topology Sort).csproj", "{1CCD109C-02C8-4049-99EE-B523AF7E8CFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class21th (Union Find)", "..\Class21th (Union Find)\Class21th (Union Find).csproj", "{C79506B8-685C-45A0-A344-6B3235C7F00D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class21th (Union Find)", "..\Class21th (Union Find)\Class21th (Union Find).csproj", "{C79506B8-685C-45A0-A344-6B3235C7F00D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class22th (Kruskal)", "..\Class22th (Kruskal)\Class22th (Kruskal).csproj", "{84B186A1-8E07-4EED-B170-4F51E3E0AB9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{C79506B8-685C-45A0-A344-6B3235C7F00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79506B8-685C-45A0-A344-6B3235C7F00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79506B8-685C-45A0-A344-6B3235C7F00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B186A1-8E07-4EED-B170-4F51E3E0AB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B186A1-8E07-4EED-B170-4F51E3E0AB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B186A1-8E07-4EED-B170-4F51E3E0AB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B186A1-8E07-4EED-B170-4F51E3E0AB9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
